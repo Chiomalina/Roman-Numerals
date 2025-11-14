@@ -21,6 +21,7 @@ def roman_to_int(string_of_roman_numerals: str) -> int:
 	# Step 2: Initialize total and index
 	total = 0
 	i = 0
+	print ("length of string is:", len(string_of_roman_numerals))
 
 	# Step 3: Scan from left to right
 	while i < len(string_of_roman_numerals):
@@ -42,6 +43,8 @@ def roman_to_int(string_of_roman_numerals: str) -> int:
 		i += 1
 	return total
 
-
+print(roman_to_int("MCMXCIV"))
+print(roman_to_int("IX"))
+print(roman_to_int("XL"))
 
 
