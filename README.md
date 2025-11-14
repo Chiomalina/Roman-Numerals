@@ -71,3 +71,49 @@ roman_numerals/
 ├── roman_numerals_plan.py     # Thinking / algorithm plan (problem breakdown)
 └── tests/
     └── test_roman_numerals.py # Pytest suite for both implementations
+```
+---
+
+
+## 🧪 Running the Tests
+
+1. (Optional but recommended) Create and activate a virtual environment:
+
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate  # macOS / Linux
+   # .venv\Scripts\activate   # Windows (PowerShell)
+
+
+
+## Install dependencies:
+```
+
+pip install pytest
+```
+
+## Run the test suite:
+```
+
+python -m pytest -v
+```
+
+
+You should see all tests passing (including edge cases like lowercase input and invalid strings).
+
+
+## 📚 Learning Focus
+
+This project is part of my journey in software engineering and is focused on:
+
+Writing clear, well-documented Python code.
+
+Comparing multiple algorithms for the same problem.
+
+Building confidence with testing using pytest.
+
+Practicing small, focused repositories that are easy to review on GitHub.
+
+
+---
+
