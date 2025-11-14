@@ -1,6 +1,12 @@
 from typing import List, Dict, Optional
 
 def roman_to_int(string_of_roman_numerals: str) -> int:
+	"""
+	Convert a Roman numeral string into an integer.
+	:param string_of_roman_numerals:
+	:return: integer of roman numerals
+	"""
+
 	# step 1: Use a dictionary to map characters to its integer
 	values = {
 		"I": 1,
@@ -11,9 +17,6 @@ def roman_to_int(string_of_roman_numerals: str) -> int:
 		"D": 500,
 		"M": 1000,
 	}
-
-	total = 0
-	i = 0
 
 	# Step 2: Initialize total and index
 	total = 0
