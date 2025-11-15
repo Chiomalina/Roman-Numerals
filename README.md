@@ -104,15 +104,15 @@ You should see all tests passing (including edge cases like lowercase input and 
 
 ## 📚 Learning Focus
 
-This project is part of my journey in software engineering and is focused on:
+- This project is part of my journey in software engineering and is focused on:
 
-Writing clear, well-documented Python code.
+- Writing clear, well-documented Python code.
 
-Comparing multiple algorithms for the same problem.
+- Comparing multiple algorithms for the same problem.
 
-Building confidence with testing using pytest.
+- Building confidence with testing using pytest.
 
-Practicing small, focused repositories that are easy to review on GitHub.
+- Practicing small, focused repositories that are easy to review on GitHub.
 
 
 ---
